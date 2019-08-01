@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- GOOGLE FONTS -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+   
+   <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!---vendors--->
+    <link rel="stylesheet" href="vendor/css/grid.css">
+    <link rel="stylesheet" href="vendor/css/normalize.css">
+    
+    <!--RESOURCES-->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+    <title>Burn-Studio</title>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="row clear-fix">
+               <a href="#home">
+                    <img src="resources/img/logo.png" alt="burnstudio" class="logo" id="home">
+                </a>
+                <ul class="main-nav">
+                    <li class="active"><a href="#home">portfolio</a></li>
+                    <li class="active"><a href="#project">project</a></li>
+                    <li><a href="#about">about me</a></li>
+                    <li><a href="#contact">contact me</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void()" onclick="closeNav()" class="closebtn">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#home">portfolio</a>
+                            <a onclick="closeNav()" href="#project">project</a>
+                            <a onclick="closeNav()" href="#about">about me</a>
+                            <a onclick="closeNav()" href="#contact">contact me</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+        <hr class=" header-margin">
+        <div class="row">
+           <div class="hero-text">
+                <h1>I’m a Graphic / Web Designer based in Philippines</h1>
+                <p class="little-p">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+                <a href="#contact" class="btn btn-hero" >Hire Me</a>
+            </div>
+        </div>
+        
+    </header>
+    <section class="my-project clear-fix js--java" id="project"> 
+       <hr class="header-margin1">
+        <div class="row clear-fix">
+            <h2>My Latest Project</h2>
+            <div class="row">
+                <div class="project col span_1_of_3">
+                    <div class="start img1">
+                        <img src="resources/lake_balaton_516991.jpg" alt="tv">
+                        <div class="bod">
+                            <h3>1WD.TV Project</h3>
+                            <p>Web design, Freelance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="project col span_1_of_3">
+                    <div class="start img2">
+                        <img src="resources/lake_balaton_516991.jpg" alt="tv">
+                        <div class="bod">
+                            <h3>1WD.TV Project</h3>
+                            <p>Web design, Freelance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="project col span_1_of_3">
+                    <div class="start img3">
+                        <img src="resources/lake_balaton_516991.jpg" alt="tv">
+                        <div class="bod">
+                            <h3>1WD.TV Project</h3>
+                            <p>Web design, Freelance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!---about-area--->
+    <!---about-area--->
+    <!---about-area--->
+    <!---about-area--->
+    
+    <section class="about-area clear-fix" id="about">
+        <div class="row">
+            <div class="col span_1_of_2 about-first">
+                <h3>About Me</h3>
+                <p class="first-p">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p> 
+                <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
+                <div class="social-logo">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                </div>
+            </div>
+            <div class="col span_1_of_2">
+                <div class="whats-new">
+                    <h3>What's New?</h3>
+                    <img src="resources/lake_balaton_516991.jpg" alt="d">
+                    <div class="help">
+                        <h4>This is Photoshop's version  of Lorem Ipsum. </h4>
+                        <span><p>Web design</p> - January 28, 2013 - <p>Admin</p></span>
+                    </div>
+                </div>
+                <hr class="mark">
+                <div class="next-site">
+                    <img src="resources/lake_balaton_516991.jpg" alt="3">
+                    <div class="help">
+                        <h4>This is Photoshop's version  of Lorem Ipsum. </h4>
+                        <span><p>Web Design</p> - January 28, 2013 - <p>Admin</p></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <!---CONTACT-area--->
+    <!---CONTACT-area--->
+    <!---CONTACT-area--->
+    <!---CONTACT-area--->
+    <section class="contact clear-fix" id="contact">
+        <div class="row">
+           <div class="contact-hedar">
+            <h2>Get In Touch</h2>
+                <p class="little-p">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111 </p>
+            </div>
+            <form action="#" method="post">
+                    <div class="contact-area">
+                        <div class="row">
+                            <div class="col span_1_of_2">
+                                <label for="first">First Name<p>*</p></label>
+                                <input  id="first" name="name" type="text" placeholder="First Name" required>
+                            </div>
+                            <div class="col span_1_of_2">
+                                <label for="2nd">Last Name<p>*</p></label>
+                                <input id="2nd" name="name" type="text" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="gmail">Email Address<p>*</p></label>
+                            <input  id="gmail" name="email" type="email" placeholder="Enter Your Email" required>
+                        </div>
+                        <div class="row">
+                           <label for="message">Message<p>*</p></label>
+                            <textarea id="message" name="message" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+                        </div>
+                        <div class="row submit-key">
+                            <input class="btn btn-submit" type="submit" value="SEND MESSAGE">
+                        </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    
+    <!---JV--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="vendor/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/main.js"></script>
+    
+</body>
+</html>

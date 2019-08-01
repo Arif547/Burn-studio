@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1150px){
+    nav{
+        margin: 0 1.5rem;
+    }
+    .hero-text{
+        width: 80%;
+    }
+    .contact-hedar .little-p{
+        width: 100%;
+        margin-bottom: 3.5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1150px){
+    
+}
+
+
+@media only screen and (max-width: 980px){
+
+    .my-project .col{
+        width: 100%
+    }
+    .img1{
+        margin-top: 4.5rem;
+    }
+    .about-area .col{
+        width: 100%;
+        text-align: center;
+    }
+    .about-first p{
+        width: 80%;
+        margin-left: 10%;
+        font-size: 1.8rem;
+    }
+    .help{
+        margin-right: 10rem;
+    }
+    
+    h4{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+     .start img{
+    width: 50rem;
+    height: 30rem;
+}
+    span{
+        font-size: 1.5rem;
+        
+    }
+    .about-area .col img{
+        width: 35rem;
+        height: 20rem;
+        margin-left: 4rem;
+    }
+    .mark{
+        width: 95%;
+        margin-right: 2rem;
+    }
+    .contact-hedar .little-p{
+        width: 65%;
+        text-align: center;
+        margin-bottom: 3.5rem;
+    }
+    
+    .main-nav li{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+    
+    nav{
+        margin: 0 ;
+    }
+    nav a .logo{
+        margin-left: 1.5rem;
+    }
+    .mobile-menu span{
+        margin-right: 1.5rem;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 905px){
+   
+    .about-area .col img{
+        margin-left: 0;
+    }
+    form{
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+}
+
+@media only screen and (max-width: 833px){
+    .about-area .col:nth-child(2) .whats-new{
+       width: 100%;
+    }
+    .help{
+        float: none;
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .contact-area .col{
+        width: 100%;
+    }
+    .contact-area .col:nth-child(2){
+        margin-left: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .start img{
+        width: 35rem;
+        height: 20rem;
+    }
+    
+    h1{
+        font-size: 3rem;
+    }
+    
+    .hero-text .little-p{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .hero-text{
+        width: 100%;
+    }
+    
+     .start img{
+        width: 25rem;
+        height: 15rem;
+    }
+    
+    .about-area .col img{
+        width: 25rem;
+        height: 15rem;
+    }
+}
